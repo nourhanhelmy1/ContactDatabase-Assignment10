@@ -63,6 +63,6 @@ namespace ContactDatabase.Pages
         public string Title { get; set; } = string.Empty;
         public string? Description { get; set; } 
         public DateTime DateOfBirth { get; set; }
-        public bool? MarriageStatus { get; set; }
+        public bool MarriageStatus { get; set; }
     }
 }
